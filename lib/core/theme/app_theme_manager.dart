@@ -23,5 +23,39 @@ class AppThemeManager  {
       ),
     ),
     scaffoldBackgroundColor: Colors.transparent,
+    textTheme: const TextTheme(
+        titleLarge: TextStyle(
+          fontFamily: "Exo",
+          fontSize: 30,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+          //color:  Colors.black,
+        ),
+        bodyLarge: TextStyle(
+          fontFamily: "Exo",
+          fontSize: 22,
+          fontWeight: FontWeight.w500,
+          color: Color(0xFF4F5A69),
+        ),
+        bodyMedium: TextStyle(
+          fontFamily: "Exo",
+          fontSize: 25,
+          fontWeight: FontWeight.w400,
+          color: Colors.white,
+        ),
+        bodySmall: TextStyle(
+          fontFamily: "Exo",
+          fontSize: 22,
+          fontWeight: FontWeight.w500,
+          color: Colors.white,
+        ),
+
+        displaySmall: TextStyle(
+          fontFamily: "Exo",
+          fontSize: 12,
+          fontWeight: FontWeight.w400,
+          color: Colors.grey,
+        )
+    ),
   );
 }
